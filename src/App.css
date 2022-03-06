@@ -1,9 +1,9 @@
 .main {
   text-align: center;
-  background-color: royalblue;
+  background-color: white;
 }
 .navbar{
-  background-color: rgb(5, 5, 216);
+  background-color: #c40c00;
 }
 .linkText{
   color: white;
@@ -13,36 +13,99 @@
   color:white;
   font-weight: 700;
 }
-.whiteBg{
-  background-color: white;
-}
-.aboutImage>img, .methodologyImage > img, .materialImage > img{
-  width: 400px;
-  height: 300px;
-  padding: 20px 0;
-}
-.aboutImage, .materialImage{
-  /* border-style: solid; */
-  margin-left: 0;
+.blueBg{
+  background-color: #0d1b58;
+  border-style: solid;
   width: fit-content;
 }
-.aboutText, .methodologyText, .materialText, .personalText{
-  /* border-style: solid; */
+.blueBg2{
+  background-color: #070f33;
+  border-style: solid;
+  width: fit-content;
+  margin-left: auto;
+  margin-bottom: 15px;
+}
+
+/*General Syles for text and images*/
+
+
+.aboutImage>img, .methodologyImage > img, .materialImage > img{
+  width: 640px;
+  height: 500px;
+  padding: 20px 0;
+}
+.aboutText, .methodologyText, .materialText, .personalText, .fourthRowText{
   height: 100%;
-  width:50%;
+  width:60%;
   text-align: center;
   vertical-align: middle;
   padding: 100px 0;
 }
-.personalText{
-  margin-left: auto;
+
+/*Specific Styles for text and images*/
+
+
+.aboutImage{
+  margin-left: 0;
+  width: fit-content;
 }
-.aboutText,.materialText{
+.aboutText{
   margin-left: auto;
   color: white;
 }
+.aboutText>h1{
+  border-left: 5px solid white;
+  padding-left: 15px;
+}
+.methodologyImage{
+  margin-top: 25px;
+  height: 400px;
+}
+.methodologyImage>img{
+  height: 400px;
+}
+.personalText{
+  margin-left: auto;
+}
+.personalText, .methodologyText{
+  overflow: hidden;
+}
+.personalText>h1, .methodologyText>h1, .fourthRowText>h1{
+  font-weight: 700;
+  color: #a40a00;
+}
+.materialImage{
+  margin-left: auto;
+  width: fit-content;
+}
+.materialText{
+  margin-right: auto;
+  color: white;
+}
+.materialText>h1{
+  border-right: 5px solid white;
+  padding-right: 15px;
+}
+.fourthRowText{
+  margin-left: auto;
+}
+.fourthRowEmail{
+  height: 50%;
+  /* border-style: solid; */
+}
+.fourthRowEmail>h4{
+  margin-top: auto;
+  margin-bottom: 0;
+}
+.fourthRowInsta{
+  height: 50%;
+  /* border-style: solid; */
+  margin-bottom: auto;
+}
+
+
 .footer{
-  background-color: rgba(158, 8, 8, 0.623);
+  background-color: #c40c00;
 }
 .fab {
   padding: 20px;
